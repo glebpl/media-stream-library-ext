@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Stream Library Ext</title>
+</head>
+<body>
+    <div>
+        <h1>EXT</h1>
+        <div>
+            <label>WS URL</label>
+            <input name="wsUrl" type="text" value="127.0.0.1:8854" />
+        </div>
+        <div>
+            <label>RTSP URL</label>
+            <select name="rtspUrl">
+                <option>rtsp://rtsp:password@10.78.3.64:554/stream1</option>
+                <option>rtsp://rtsp:password@10.78.3.63:554/stream1</option>
+                <option>rtsp://user:password@10.78.3.53:554/live1.sdp</option>
+                <option>rtsp://admin:V1de0adm1n@10.78.131.32:554/Streaming/Channels/101</option>
+                <option>rtsp://10.78.3.61:5544/user=admin&password=&channel=1&stream=0.sdp</option>
+            </select>
+        </div>
+        <button id="play">Play</button>
+        <button id="stop">Stop</button>
+    </div>
+    <div>
+        <video style="width: 600px; height: 300px" autoplay></video>
+    </div>
+    <script src="libs/require.js" data-main="js/example.js"></script>
+</body>
+</html>

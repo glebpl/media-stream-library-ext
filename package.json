@@ -1,0 +1,32 @@
+{
+  "name": "media-stream-library-ext",
+  "version": "1.0.0",
+  "description": "Extensions for media-stream-library-js: SourceBufferPipilene",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -wd",
+    "build": "webpack"
+  },
+  "author": "Gleb Plakhotnik",
+  "license": "ISC",
+  "dependencies": {
+    "media-stream-library": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^12.6.8",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.1.4",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.0.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
