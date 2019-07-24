@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 import { Writable, Readable } from 'stream';
 import { Sink } from 'media-stream-library/lib/components/component';
