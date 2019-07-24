@@ -64,10 +64,10 @@ requirejs([
 
             sourceBuffer = addSourceBuffer($video, mse, `video/mp4; codecs="${mimeCodecs}"`);
 
-            callback()
+            callback();
         };
 
-        mse.addEventListener('sourceopen', handler)
+        mse.addEventListener('sourceopen', handler);
     };
 
     const closeStream = () => {
@@ -140,7 +140,7 @@ requirejs([
                         return;
                     }
                 } catch (e) {
-                    console.warn(e)
+                    console.warn(e);
                 }
             }
 
@@ -149,7 +149,7 @@ requirejs([
 
         sourceBuffer.addEventListener('updateend', onUpdateEndHandler);
 
-        return sourceBuffer
+        return sourceBuffer;
     };
 
     const handleClickStop = () => {
